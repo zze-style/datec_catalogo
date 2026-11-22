@@ -4,8 +4,6 @@ Aplicación de escritorio en **Java Swing, POO y MVC**, con PostgreSQL y JDBC. A
 
 ## Abrir la aplicación
 
-**Versión portable para Windows:** abra `dist/portable/DATEC/DATEC.exe`. Incluye el entorno Java; conserve completa la carpeta DATEC. PostgreSQL se instala o configura por separado.
-
 **Versión JAR:** con Java 17 o posterior, haga doble clic en `ejecutar.cmd`, o ejecute `java -jar dist/app/datec.jar` desde la carpeta del proyecto. El programa abre la pantalla de inicio de sesión. La contraseña se conserva solo en memoria durante la sesión.
 
 La aplicación está probada con PostgreSQL 17 y se compila para Java 17. La distribución portable se generó con OpenJDK 25 para Windows x64.
