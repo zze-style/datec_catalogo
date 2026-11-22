@@ -1,0 +1,18 @@
+# Plantilla de credenciales de Cloudinary para DATEC.
+# 1. Copie este archivo como  config/cloudinary.properties  (mismo directorio).
+# 2. Complete los valores desde el Dashboard de Cloudinary (Settings > API Keys / Upload).
+#    También puede llenarlos desde la app: Editar ficha > Imágenes > «Configurar Cloudinary…».
+# 3. NO suba cloudinary.properties al repositorio ni lo comparta: contiene la clave secreta.
+# Alternativa: variables de entorno CLOUDINARY_CLOUD_NAME, CLOUDINARY_UPLOAD_PRESET,
+# CLOUDINARY_API_KEY y CLOUDINARY_API_SECRET (tienen prioridad sobre este archivo).
+
+# Obligatorio: nombre de la nube (aparece en el Dashboard).
+cloudinary.cloud_name=su_cloud_name
+
+# Recomendado para subir: un upload preset en modo "Unsigned" (Settings > Upload > Upload presets).
+cloudinary.upload_preset=su_upload_preset
+
+# Para BORRAR de Cloudinary las fotos que se quitan de un producto (y para subir sin preset).
+# Si se dejan vacíos, la app guarda igual pero no borra fotos en la nube.
+cloudinary.api_key=
+cloudinary.api_secret=

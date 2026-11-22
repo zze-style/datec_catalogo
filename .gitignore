@@ -1,0 +1,13 @@
+/build/
+/dist/
+/tmp/
+/config/local.properties
+*.log
+/config/cloudinary.properties
+/respaldos/
+/documentos_entrega/
+/datos/
+/assets/demo/
+/assets/images/
+/docs/capturas/
+/assets/logo/datalogo.png

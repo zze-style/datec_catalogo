@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DATEC - Catálogo",
+      "request": "launch",
+      "mainClass": "pe.datec.App",
+      "projectName": "DATEC",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
